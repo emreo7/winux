@@ -1,5 +1,7 @@
 # linuxConverter
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+
 A terminal application that translates Linux CLI commands into their Windows equivalents — either **CMD** or **PowerShell** — and executes them directly. Designed for developers who think in Linux but work on Windows.
 
 ---
@@ -136,6 +138,8 @@ python -m venv .venv
 pip install -e .
 ```
 
+> **Note:** The repository folder is named `winux`, but the package name is `linuxConverter`. You run it with `python -m linuxConverter`.
+
 ---
 
 ## Usage
@@ -220,7 +224,7 @@ Commands like `cd`, `mkdir`, `find`, `du`, and `ln` complete **directories only*
 ## Project Structure
 
 ```
-linuxCliConverter/
+winux/
 ├── linuxConverter/
 │   ├── __init__.py        # Public API exports
 │   ├── __main__.py        # Entry point (python -m linuxConverter)
