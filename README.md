@@ -129,8 +129,8 @@ A terminal application that translates Linux CLI commands into their Windows equ
 **Requirements:** Python 3.10+
 
 ```bash
-git clone https://github.com/emreo7/linuxCliConverter.git
-cd linuxCliConverter
+git clone https://github.com/emreo7/winux.git
+cd winux
 python -m venv .venv
 .venv\Scripts\activate
 pip install -e .
