@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linuxConverter"
+version = "0.1.0"
+description = "Linux to Windows command & pipeline converter CLI"
+requires-python = ">=3.10"
+dependencies = ["prompt_toolkit>=3.0.0"]
+
+[project.scripts]
+linuxConverter = "linuxConverter.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+packages = ["linuxConverter"]
